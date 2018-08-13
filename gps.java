@@ -13,3 +13,14 @@ class GPSlocation {
         this.longitude = longitude;
     }
 }
+
+// Exercise 2.1 Formulate the examples of information from the GPS problem as instances of GPSLocation.
+class GPSProblems {
+                   GPSLocation A = new GPSLocation (42.34, 71.09);
+
+                   GPSProblems () {}
+                   }
+
+
+                               
+                
