@@ -1,2 +1,7 @@
 
-*.bak
+*.*
+!.gitattributes
+!.gitignore
+!readme.md
+!.gitkeep
+!*.java
