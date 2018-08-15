@@ -1,4 +1,4 @@
- //#lang profj/beginner
+ #lang profj/beginner
 
 //;Exercise 2.2 Take a look at this problem statement:
 //;
@@ -112,9 +112,31 @@ class Automobile
   }
  }
 
- public class HelloWorld {
-     public static void main(String[] args) {
-         // Prints "Hello, World" in the terminal window.
-         System.out.println("Hello, World");
-     }
+class autos
+{
+ Automobile mine = new Automobile ("ferrari", 5000, 4555000.00, true);
+
+ autos (){};
+ }
+
+
+// introducing the concept of gravity
+class Apple {
+                 int x;
+                 int y;
+                 int RADIUS = 5;
+                 int G = 10; // meters per second square
+                 
+Apple(int x, int y) {
+                            this.x = x;
+                            this.y = y;
+}
+}
+
+class apples
+{
+ Apple A = new Apple (100, 200);
+ Apple B = new Apple (500, 600);
+
+ apples (){};
  }
