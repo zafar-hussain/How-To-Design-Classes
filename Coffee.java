@@ -10,6 +10,9 @@ public class Coffee
     int weight;
 
 
+
+
+    // constructor
     Coffee (String kind, int price, int weight)
     {
         this.kind   = kind;
@@ -20,6 +23,11 @@ public class Coffee
 
 public static void main (String[] args)
     {
+        Coffee a = new Coffee(
+                    "Arabian",
+                    800,
+                    100);
+
         System.out.println("hi there");
     }
 
