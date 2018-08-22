@@ -24,9 +24,14 @@ public class Coffee
 public static void main (String[] args)
     {
         Coffee a = new Coffee(
-                    "Arabian",
-                    800,
-                    100);
+                "Arabian",
+                800,
+                100);
+
+        Coffee b = new Coffee(
+                "Columbian",
+                950,
+                1);
 
         System.out.println("hi there");
     }
