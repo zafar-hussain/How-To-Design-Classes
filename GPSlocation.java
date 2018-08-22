@@ -26,12 +26,9 @@ public class GPSlocation
 
 public static void main (String[] args)
     {
-        GPSlocation g1 = new GPSlocation(33.5,
-                86.8);
-        GPSlocation g2 = new GPSlocation(40.2,
-                72.4);
-        GPSlocation g3 = new GPSlocation(49.0,
-                110.3);
+        GPSlocation g1 = new GPSlocation(33.5,86.8);
+        GPSlocation g2 = new GPSlocation(40.2,72.4);
+        GPSlocation g3 = new GPSlocation(49.0,110.3);
 
         System.out.println("hi there");
     }
