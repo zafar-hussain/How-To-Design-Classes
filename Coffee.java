@@ -20,7 +20,11 @@ public class Coffee
         this.weight = weight;
     }
 
+public static int fff(int a)
+{
+    return a;
 
+}
 public static void main (String[] args)
     {
         Coffee a = new Coffee(
@@ -34,6 +38,8 @@ public static void main (String[] args)
                 1);
 
         System.out.println("hi there");
+
+
     }
 
 }
