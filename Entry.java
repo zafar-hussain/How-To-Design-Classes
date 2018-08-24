@@ -47,9 +47,13 @@ public class Entry
 }
 
 
+
 class ExamplesEntry
 {
     Entry e1 = new Entry (new Date ("June", 5, 2003), 5.3, 27, "Feeling good");
     Entry e2 = new Entry (new Date ("June", 6, 2003), 2.8, 24, "Feeling tired");
+
+    Date d1 = new Date("June", 23, 2003);
+    Entry e3 = new Entry(d1, 26.2, 150, "Feeling exhausted");
 
 }
