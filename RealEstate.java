@@ -42,5 +42,14 @@ public class RealEstate
     House h2 = new House("Colonial", 9, "", 450000, 5, "Joyce Road", "Newton");
     House h3 = new House("Cape", 6, "", 235000, 83, "winslow road", "Waltham");
 
+    ILOH empty = new mt();
+    ILOH l1 = new LOH(h1, empty);
+    ILOH l2 = new LOH(h2, l1);
+    ILOH l3 = new LOH(h3, l2);
+
+
+
+
+
 
 }
