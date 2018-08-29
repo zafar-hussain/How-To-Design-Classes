@@ -40,7 +40,7 @@ public class Posn
     }
 
 
-    public static void main()
+    public static void main(String[] args)
     {
         Posn a = new Posn(1, 2);
         System.out.println(a.distanceToZero());
