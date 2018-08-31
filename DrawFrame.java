@@ -101,12 +101,18 @@ public class DrawFrame
         //drawSolidLine(new Posn(10, 10), new Posn(110, 10));
 
 //        (draw-solid-rect (make-posn 10 30) 100 50 'blue), which draws a blue rectangle of width 100 and height 50 parallel to the red line;
-
-        StdDraw.filledRectangle(10, 10, 10, 10);
+        StdDraw.setPenColor(StdDraw.BLUE);
+        StdDraw.filledRectangle(10, 30, 100, 50);
 //
 //        (draw-circle (make-posn 110 30) 30 'yellow), which draws a yellow circle of radius 30 centered at the upper right corner of the rectangle;
+
+        StdDraw.setPenColor(StdDraw.YELLOW);
+        StdDraw.circle(300, 300, 30);
 //
 //        (draw-solid-disk (make-posn 10 80) 50 'green), which draws a green disk of radius 50 centered at the lower left corner of the rectangle; and
+
+        StdDraw.setPenColor(StdDraw.GREEN);
+        StdDraw.filledCircle(0, 0, 50);
 //
 //        (stop), which closes the canvas.
     }
