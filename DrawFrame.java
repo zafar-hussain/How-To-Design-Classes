@@ -98,7 +98,7 @@ public class DrawFrame
         (draw-solid-line (make-posn 10 10) (make-posn 110 10) 'red),
         which draws a red line close to, and parallel to, the lower end of the canvas;
          */
-        //drawSolidLine(new Posn(10, 10), new Posn(110, 10));
+        drawSolidLine(new Posn(10, 10), new Posn(110, 10));
 
 //        (draw-solid-rect (make-posn 10 30) 100 50 'blue), which draws a blue rectangle of width 100 and height 50 parallel to the red line;
         StdDraw.setPenColor(StdDraw.BLUE);
@@ -116,4 +116,6 @@ public class DrawFrame
 //
 //        (stop), which closes the canvas.
     }
+
+
 }
