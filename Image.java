@@ -15,6 +15,12 @@ public class Image
         this.quality = quality;
     }
 
+    // Examples
+    Image baseCase = new Image(0, 0, "", "");
+    Image aPortrait = new Image(100, 50, "test", "my house");
+    Image aLandScape = new Image(50, 100, "hi", "low");
+
+
 //    1. isPortrait, which determines whether the image’s height is larger than  its width;
     // isPortrait : Image -> boolean
     // returns true if this.height >= this.width
