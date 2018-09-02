@@ -4,6 +4,7 @@ public class AnEntry
     private int zip;
     private String phone;
 
+
     // Constructor
     private AnEntry(String name, int zip, String phone)
     {
@@ -49,6 +50,6 @@ public class AnEntry
                 "606-7771");
 
         System.out.println(phoneBook.getName());
-        System.out.println(phoneBook.name);
+
     }
 }
