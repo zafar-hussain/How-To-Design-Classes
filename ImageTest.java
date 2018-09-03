@@ -11,10 +11,11 @@ class ImageTest
     @Test
     void isPortrait()
     {
+
+
         assertTrue(baseCase.isPortrait());
         assertTrue(aPortrait.isPortrait());
         assertFalse(aLandScape.isPortrait());
-
 
     }
 }
