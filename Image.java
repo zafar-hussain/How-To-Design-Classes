@@ -30,16 +30,36 @@ public class Image
 
 
     /**
-     * @return 2. size, which computes how many pixels the image contains;
+     * @return int
+     * 2. size, which computes how many pixels the image contains;
      * returns product of image.height, image.width
      * int size () {return 0;} // stub
-     **/
+     */
     int size() {return this.height * this.width;}
 
 
-//    3. isLarger, which determines whether one image contains more pixels
-//        than some other image; and
-//    4. same, which determines whether this image is the same as a given
-//    one.
+    /**
+     * @param Image
+     * @return boolean
+     * <p>
+     * 3. isLarger, which determines whether one image contains more pixels
+     * returns true if Image1.size >= Image2.size
+     * boolean isLarger (Image img){return false;} // stub
+     */
+    boolean isLarger(Image img) {return this.size() >= img.size();}
+
+
+    /**
+     * @param Image
+     * @return boolean
+     * <p>
+     * 4. same, which determines whether this image is the same as a given one.
+     * returns true isEqual Image1 Image2
+     * boolean same (Image img) {return false;} // stub
+     */
+    boolean same(Image img) {return this.equals(img);} // stub
+
+
+
 //    Also draw a complete class diagram
 }

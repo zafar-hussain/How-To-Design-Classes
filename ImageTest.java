@@ -23,4 +23,20 @@ class ImageTest
         assertEquals(5000, aPortrait.size());
         assertEquals(6000, aLandScape.size());
     }
+
+    @Test
+    void isLarger()
+    {
+        assertFalse(baseCase.isLarger(aPortrait));
+        assertTrue(aLandScape.isLarger(baseCase));
+        assertTrue(aPortrait.isLarger(aPortrait));
+    }
+
+    @Test
+    void same()
+    {
+        assertTrue(baseCase.same(baseCase));
+        assertFalse(baseCase.same(aPortrait));
+        assertFalse(aPortrait.same(aLandScape));
+    }
 }
