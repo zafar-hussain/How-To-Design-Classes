@@ -39,7 +39,7 @@ public class Image
 
 
     /**
-     * @param Image
+     * @param img
      * @return boolean
      * <p>
      * 3. isLarger, which determines whether one image contains more pixels
@@ -50,7 +50,7 @@ public class Image
 
 
     /**
-     * @param Image
+     * @param img
      * @return boolean
      * <p>
      * 4. same, which determines whether this image is the same as a given one.
