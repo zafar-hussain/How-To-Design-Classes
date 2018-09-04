@@ -24,13 +24,21 @@ public class House
      */
     boolean isBigger(House h) {return this.rooms >= h.rooms;}
 
+    /**
+     * 2. thisCity, which checks whether the advertised house is in some given
+     * //        city
+     *
+     * @param cityName // string
+     * @return boolean
+     */
+    boolean thisCity(String cityName) {return this.city == cityName;}
 
-//        2. thisCity, which checks whether the advertised house is in some given
-//        city (assume we give the method a city name);
-//        3. sameCity, which determines whether one house is in the same city as
-//        some other house.
-//        Before you design the method, draw a complete class diagram for House
-//        (by hand)
 
+    /**
+     * 3. sameCity, which determines whether one house is in the same city as
+     * some other house.
+     */
+
+    boolean sameCity(House h) {return this.thisCity(h.city);}
 
 }
