@@ -21,8 +21,8 @@ class PrecipitationTest
     @Test
     void average()
     {
-        assertEquals(p0.cumulative() / 3, p0.average());
-        assertEquals(p1.cumulative() / 3, p1.average());
-        assertEquals(p2.cumulative() / 3, p2.average());
+        assertEquals(p0.cumulative() / 3.0, p0.average());
+        assertEquals(p1.cumulative() / 3.0, p1.average());
+        assertEquals(p2.cumulative() / 3.0, p2.average());
     }
 }
