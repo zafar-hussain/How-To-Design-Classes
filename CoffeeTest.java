@@ -1,18 +1,19 @@
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 class CoffeeTest
 {
 
-    @Test
-    void fff()
-    {
-        assertEquals(2, Coffee.fff(2));
-    }
+    Coffee kona = new Coffee(
+            "kona",
+            2095,
+            100);
+    Coffee ethi = new Coffee(
+            "Ethiopian",
+            800,
+            1000);
+    Coffee colo = new Coffee(
+            "colombian",
+            950,
+            20);
 
-    @Test
-    void main()
-    {
-    }
+
+
 }
