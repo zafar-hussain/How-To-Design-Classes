@@ -5,12 +5,24 @@ public class CartPt
 
     /* constructor */
 
-    CartPt (int x, int y)
+    public CartPt(int x, int y)
     {
         this.x = x;
         this.y = y;
     }
 
-
+    /**
+     * @return
+     *
+     * public xxx fnForCartPt()
+     *     {
+     *         ...this.x;
+     *         ...this.y;
+     *
+     *         return xxx;
+     *     }
+     *
+     */
 
 }
+

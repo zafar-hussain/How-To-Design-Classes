@@ -1,20 +1,23 @@
 /**
  * Exercise 2.2 Take a look at this problem statement:
  * . . . Develop a program that assists bookstore employees. For
- * each book, the program should track the book’s title, its price,
- * its year of publication, and the author’s name. . . .
+ * each book, the program should track the
+ * -- book’s title,
+ * -- its price,
+ * -- its year of publication, and
+ * -- the author’s name. . . .
+ *
  * Develop an appropriate class diagram (by hand) and implement it with a
- * class. Create instances of the class to represent these three books:
+ * class.
+ *
+ * Create instances of the class to represent these three books:
  * 1. Daniel Defoe, Robinson Crusoe, $15.50, 1719;
  * 2. Joseph Conrad, Heart of Darkness, $12.80, 1902;
  * 3. Pat Conroy, Beach Music, $9.50, 1996.
- * What does new Book("D. P. Friedman","The Little LISPer",900,1974) mean?
- * Does the question make sense? What do you need to know to interpret this
- * piece of data?
- * Exercise 2.3
- * <p>
+ *
  * Exercise 3.3 Revise the data representation for the book store assistant in
- * exercise 2.2 so that the program can find additional information about authors (name, year of birth). Modify the class diagram, the class definition,
+ * exercise 2.2 so that the program can find additional information about
+ *  authors (name, year of birth). Modify the class diagram, the class definition,
  * and the examples.
  * <p>
  * 11.1 Finger Exercises

@@ -3,11 +3,23 @@ public class Dot
 {
     CartPt loc;
 
-    //constructor
-    Dot (CartPt loc)
+    public Dot(CartPt loc)
     {
         this.loc = loc;
     }
 
+    /**
+     *
+     * @param loc
+     * @return
+     *
+     * public xxx fnForDot(CartPt loc)
+     *     {
+     *         this.loc.nnn();
+     *         return  xxx;
+     *     }
+     */
+
 
 }
+
